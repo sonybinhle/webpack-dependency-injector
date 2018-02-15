@@ -1,0 +1,31 @@
+{
+  "name": "webpack-dependency-injector",
+  "version": "0.0.1",
+  "description": "The utility for dependency injection in javascript using webpack",
+  "main": "index.js",
+  "repository": "https://github.com/sonybinhle/webpack-dependency-injector.git",
+  "author": "Binh Le <sonybinhle@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "test:cov": "rimraf ./coverage && npm run test -- --coverage",
+    "prepush": "npm run test:cov",
+    "prepublishOnly": "npm run test:cov",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "husky": "^0.14.3",
+    "jest": "^22.1.4"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "statements": 90,
+        "branches": 90,
+        "functions": 90,
+        "lines": 90
+      }
+    }
+  }
+}
