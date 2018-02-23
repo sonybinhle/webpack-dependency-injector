@@ -1,6 +1,6 @@
 {
   "name": "webpack-dependency-injector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The utility for dependency injection in javascript using webpack",
   "main": "src/webpackDI.js",
   "repository": "https://github.com/sonybinhle/webpack-dependency-injector.git",
