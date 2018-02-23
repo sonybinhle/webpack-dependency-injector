@@ -34,8 +34,6 @@ npm i webpack-dependency-injector --save-dev
 
 ## Usage:
 
-<strong>ES6</strong>
-
 ```javascript
 // webpack.js
 const path = require('path');
