@@ -26,7 +26,7 @@ class WebpackDI {
     replaceHandler(resource) {
         const injectedPath = this.getInjectedPath(resource.request, resource.context);
 
-        if (injectedPath) resource.request = injectedPath; // eslint-disable-line no-param-reassign
+        if (injectedPath) resource.request = injectedPath;
     }
 
     isMatched(url) {
