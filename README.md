@@ -15,7 +15,7 @@
 
 </div>
 
-# webpack-dependency-injector v0.0.2
+# webpack-dependency-injector v1.0.0
 
 The utility for doing dependency injection in javascript, sass build to support multiple bundles, themes.
 
